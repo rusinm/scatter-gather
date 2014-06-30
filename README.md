@@ -9,9 +9,9 @@ Step 3: run mule app
 Step 4: use postman to send a POST request to http:/localhost:8081 using any json, e.g.:
 
 {
- "email": "aaa@abc.sk", 
- "item name": "aa", 
- "item units": 2, 
- "item price per unit": 10,
- "membership": "free"
+ "a": 3, "b": 4
 }
+
+Step 5: Success: verify you recieved an email and look at the console that should contain:
+
+Processing finished: { "a": 3, "b": 4 }
